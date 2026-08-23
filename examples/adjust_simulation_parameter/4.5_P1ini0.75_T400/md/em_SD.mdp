@@ -1,0 +1,25 @@
+; em.mdp - Energy Minimization
+integrator              = steep         ; Algorithm (steep = steepest descent)
+emtol                   = 1000.0        ; Stop minimization when the maximum force < 1000.0 kJ/mol/nm
+emstep                  = 0.01          ; Minimization step size
+nsteps                  = 50000         ; Maximum number of (minimization) steps to perform
+
+; Nonbonded settings matching your reference
+cutoff-scheme           = Verlet        ; Buffered neighbor searching [cite: 15]
+ns_type                 = grid          ; Search neighboring grid cells [cite: 16]
+nstlist                 = 10            ; Neighbor list update frequency [cite: 17]
+rcoulomb                = 1.2           ; Short-range electrostatic cutoff (in nm) [cite: 18]
+rvdw                    = 1.2           ; Short-range van der Waals cutoff (in nm) [cite: 19]
+DispCorr                = EnerPres      ; Account for cut-off vdW scheme [cite: 20]
+
+; Add a static electric field along the -x axis
+; Format: electric-field-x = E0 omega t0 sigma
+electric-field-x = -0.5 0 0 0
+
+; Electrostatics
+coulombtype             = PME           ; Particle Mesh Ewald for long-range electrostatics [cite: 21]
+pme_order               = 4             ; 4th order cubic interpolation [cite: 22]
+fourierspacing          = 0.25          ; Grid spacing for FFT [cite: 23]
+
+; Periodic boundary conditions
+pbc                     = xyz           ; 3-D PBC [cite: 33]

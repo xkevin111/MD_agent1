@@ -1,0 +1,34 @@
+# General settings
+tolerance 1.5
+filetype pdb
+output final.pdb
+
+# Randomize the starting seed
+seed -1 
+
+# Force molecules to be placed further apart in the initial guess
+# Default is usually ~1.5. Increase this value to spread them out.
+discale 2.0 
+
+# -----------------------------------------------------------
+# First pointing along the original axis
+# -----------------------------------------------------------
+structure DIO_reordered.pdb
+  number 750
+  inside box 0. 0. 0. 100. 100. 100.
+  
+  # Lock rotation to original orientation
+#   constrain_rotation x 0. 0.
+  constrain_rotation y 0. 0.
+  constrain_rotation z 0. 0.
+end structure
+
+structure DIO_flipped.pdb
+  number 250
+  inside box 0. 0. 0. 100. 100. 100.
+  
+  # Lock rotation to the already-flipped orientation
+#  constrain_rotation x 0. 0.
+  constrain_rotation y 0. 0.
+  constrain_rotation z 0. 0.
+end structure

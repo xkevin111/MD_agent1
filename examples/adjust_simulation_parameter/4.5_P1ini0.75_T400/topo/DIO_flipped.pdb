@@ -1,0 +1,66 @@
+HEADER    
+TITLE     MDANALYSIS FRAME 0: Created by PDBWriter
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+REMARK     285 UNITARY VALUES FOR THE UNIT CELL AUTOMATICALLY SET
+REMARK     285 BY MDANALYSIS PDBWRITER BECAUSE UNIT CELL INFORMATION
+REMARK     285 WAS MISSING.
+REMARK     285 PROTEIN DATA BANK CONVENTIONS REQUIRE THAT
+REMARK     285 CRYST1 RECORD IS INCLUDED, BUT THE VALUES ON
+REMARK     285 THIS RECORD ARE MEANINGLESS.
+ATOM      1  F1  DIO X   1     -11.011  -1.313   0.596  1.00  0.00      SYST F  
+ATOM      2  C1  DIO X   1     -10.235  -0.460  -0.099  1.00  0.00      SYST C  
+ATOM      3  C2  DIO X   1      -8.794  -0.519   0.060  1.00  0.00      SYST C  
+ATOM      4  C3  DIO X   1      -7.906   0.415  -0.668  1.00  0.00      SYST C  
+ATOM      5  C4  DIO X   1      -8.561   1.386  -1.576  1.00  0.00      SYST C  
+ATOM      6  C5  DIO X   1     -10.004   1.424  -1.717  1.00  0.00      SYST C  
+ATOM      7  F2  DIO X   1     -10.558   2.294  -2.584  1.00  0.00      SYST F  
+ATOM      8  C6  DIO X   1     -10.841   0.503  -0.987  1.00  0.00      SYST C  
+ATOM      9  F3  DIO X   1     -12.179   0.556  -1.119  1.00  0.00      SYST F  
+ATOM     10  C7  DIO X   1      -6.442   0.379  -0.512  1.00  0.00      SYST C  
+ATOM     11  C8  DIO X   1      -5.671   1.607  -0.216  1.00  0.00      SYST C  
+ATOM     12  C9  DIO X   1      -4.224   1.573  -0.068  1.00  0.00      SYST C  
+ATOM     13  C10 DIO X   1      -3.498   0.340  -0.308  1.00  0.00      SYST C  
+ATOM     14  C11 DIO X   1      -4.223  -0.900  -0.526  1.00  0.00      SYST C  
+ATOM     15  C12 DIO X   1      -5.664  -0.869  -0.648  1.00  0.00      SYST C  
+ATOM     16  F4  DIO X   1      -6.313  -2.023  -0.904  1.00  0.00      SYST F  
+ATOM     17  O1  DIO X   1      -2.176   0.324   0.083  1.00  0.00      SYST O  
+ATOM     18  C13 DIO X   1      -1.231  -0.408  -0.631  1.00  0.00      SYST C  
+ATOM     19  O2  DIO X   1      -1.222  -0.888  -1.795  1.00  0.00      SYST O1-
+ATOM     20  C14 DIO X   1       0.060  -0.489   0.061  1.00  0.00      SYST C  
+ATOM     21  C15 DIO X   1       0.723   0.711   0.618  1.00  0.00      SYST C  
+ATOM     22  F5  DIO X   1       0.097   1.906   0.585  1.00  0.00      SYST F  
+ATOM     23  C16 DIO X   1       2.031   0.663   1.245  1.00  0.00      SYST C  
+ATOM     24  C17 DIO X   1       2.789  -0.583   1.284  1.00  0.00      SYST C  
+ATOM     25  C18 DIO X   1       2.101  -1.809   0.897  1.00  0.00      SYST C  
+ATOM     26  C19 DIO X   1       0.785  -1.760   0.284  1.00  0.00      SYST C  
+ATOM     27  F6  DIO X   1       0.160  -2.941   0.085  1.00  0.00      SYST F  
+ATOM     28  C20 DIO X   1       4.196  -0.627   1.831  1.00  0.00      SYST C  
+ATOM     29  O3  DIO X   1       4.893   0.620   1.731  1.00  0.00      SYST O  
+ATOM     30  C21 DIO X   1       5.330   0.901   0.406  1.00  0.00      SYST C  
+ATOM     31  C22 DIO X   1       6.219  -0.219  -0.125  1.00  0.00      SYST C  
+ATOM     32  C23 DIO X   1       5.411  -1.512  -0.015  1.00  0.00      SYST C  
+ATOM     33  O4  DIO X   1       4.969  -1.720   1.323  1.00  0.00      SYST O  
+ATOM     34  C24 DIO X   1       7.547  -0.359   0.652  1.00  0.00      SYST C  
+ATOM     35  C25 DIO X   1       8.453   0.876   0.654  1.00  0.00      SYST C  
+ATOM     36  C26 DIO X   1       8.838   1.360  -0.735  1.00  0.00      SYST C  
+ATOM     37  H1  DIO X   1      -8.368  -1.261   0.725  1.00  0.00      SYST H  
+ATOM     38  H2  DIO X   1      -7.955   2.027  -2.208  1.00  0.00      SYST H  
+ATOM     39  H3  DIO X   1      -6.186   2.544  -0.055  1.00  0.00      SYST H  
+ATOM     40  H4  DIO X   1      -3.673   2.454   0.231  1.00  0.00      SYST H  
+ATOM     41  H5  DIO X   1      -3.679  -1.826  -0.650  1.00  0.00      SYST H  
+ATOM     42  H6  DIO X   1       2.412   1.563   1.712  1.00  0.00      SYST H  
+ATOM     43  H7  DIO X   1       2.530  -2.780   1.110  1.00  0.00      SYST H  
+ATOM     44  H8  DIO X   1       4.099  -0.816   2.907  1.00  0.00      SYST H  
+ATOM     45  H9  DIO X   1       4.463   1.046  -0.247  1.00  0.00      SYST H  
+ATOM     46  H10 DIO X   1       5.858   1.858   0.423  1.00  0.00      SYST H  
+ATOM     47  H11 DIO X   1       6.444  -0.035  -1.181  1.00  0.00      SYST H  
+ATOM     48  H12 DIO X   1       6.022  -2.374  -0.301  1.00  0.00      SYST H  
+ATOM     49  H13 DIO X   1       4.550  -1.494  -0.694  1.00  0.00      SYST H  
+ATOM     50  H14 DIO X   1       7.348  -0.633   1.696  1.00  0.00      SYST H  
+ATOM     51  H15 DIO X   1       8.111  -1.196   0.221  1.00  0.00      SYST H  
+ATOM     52  H16 DIO X   1       7.980   1.694   1.209  1.00  0.00      SYST H  
+ATOM     53  H17 DIO X   1       9.371   0.627   1.203  1.00  0.00      SYST H  
+ATOM     54  H18 DIO X   1       9.277   0.552  -1.328  1.00  0.00      SYST H  
+ATOM     55  H19 DIO X   1       7.972   1.756  -1.275  1.00  0.00      SYST H  
+ATOM     56  H20 DIO X   1       9.574   2.166  -0.660  1.00  0.00      SYST H  
+END
